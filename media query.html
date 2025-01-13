@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card{
+            border: 2px solid aquamarine;
+            padding: 10px;
+            border-radius: 7px;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 7px;
+        }
+        /* simple media query */
+        /* smaller device */
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        /* medium device */
+        @media screen and (min-width: 576px) and (max-width: 992px){
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur ad aperiam. Dolorem dignissimos dolorum hic ipsum? Porro, animi recusandae.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-2</h3>
+            <p>price: $200</p>
+            <p>Nam, quis aut dolore reprehenderit veniam expedita, magnam placeat quas consequatur, harum saepe quod corrupti est. Accusantium distinctio nisi nam?</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-3</h3>
+            <p>price: $300</p>
+            <p>Sint, porro accusamus! A non sapiente natus illo debitis perferendis at, voluptatum nam dolorum ullam. Corrupti temporibus minus odio quas.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-4</h3>
+            <p>price: $400</p>
+            <p>Nam, ea tempora pariatur corporis fuga consectetur alias necessitatibus atque! Mollitia qui quisquam voluptatum reprehenderit, placeat possimus distinctio cum veritatis?</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-5</h3>
+            <p>price: $500</p>
+            <p>Architecto magni veritatis autem accusantium veniam natus molestiae, aliquid beatae nemo dicta expedita. Culpa dignissimos maxime ex voluptatem dolore hic.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-6</h3>
+            <p>price: $600</p>
+            <p>Dolorum repellendus, voluptatum a quis, assumenda maiores voluptates modi ducimus fugiat quo optio minus distinctio eum. Ipsam est odit earum?</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-7</h3>
+            <p>price: $700</p>
+            <p>Fugit accusamus labore, maxime corrupti corporis suscipit tenetur, quod nihil alias porro enim eveniet harum dolore! Non commodi nam eos?</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-8</h3>
+            <p>price: $800</p>
+            <p>Odio voluptates enim architecto quis, vel non porro eligendi, ad repellat nam facilis totam similique libero cum sint nemo et.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-9</h3>
+            <p>price: $900</p>
+            <p>Animi fugit quae eaque, at magni ipsa quis illo dolores voluptatem, voluptates perspiciatis nihil consequatur. Nam saepe laboriosam minus deleniti!</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-10</h3>
+            <p>price: $1000</p>
+            <p>Minus provident sapiente at accusantium vero laudantium possimus suscipit eligendi amet sint commodi vitae maxime, dolore id? Vel, eligendi ullam.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-11</h3>
+            <p>price: $1100</p>
+            <p>Hic temporibus ducimus error, perspiciatis obcaecati a delectus eius? Hic at incidunt eveniet! Molestiae labore pariatur omnis laborum, unde in.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/1363588189/photo/healthy-lifestyle-on-ketogenic-diet-eating-clean-keto-food-good-health-dietary-in-heart-dish.jpg?s=612x612&w=0&k=20&c=RVW_a2Bq3eYeUWqkUbTUHkiQbGJaAMa9Q2fyljGymgY=" alt="">
+            <h3>health-items-12</h3>
+            <p>price: $1200</p>
+            <p>Consequatur exercitationem, natus sapiente libero accusantium sit eligendi, tempora reiciendis corporis excepturi blanditiis nesciunt quia deleniti doloremque officiis praesentium quibusdam.</p>
+        </div>
+    </div>
+</body>
+</html>
