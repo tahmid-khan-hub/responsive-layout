@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cnt1,.cnt2{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .cnt1>img,.cnt2>img{
+            width: 600px;
+            height: 100%;
+        }
+        @media screen and (max-width:576px) {
+            .cnt1,.cnt2{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="food-container">
+        <div class="cnt1">
+            <img src="./image/1709658431311.png" alt="">
+
+            <div class="des1">
+                <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptas quis eum odio eligendi assumenda rem non voluptates dolor reprehenderit dignissimos, maxime ratione laudantium error cum vel    rerum modi. Amet?
+                </p>
+                <button>click here</button>
+            </div>
+        </div>
+        <div class="cnt2">
+            <img src="./image/heart-healthy-food-1580231690.avif" alt="">
+            <div class="des2">
+                <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptas quis eum odio eligendi assumenda rem non voluptates dolor reprehenderit dignissimos, maxime ratione laudantium error cum vel    rerum modi. Amet?
+                </p>
+                <button>click here</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

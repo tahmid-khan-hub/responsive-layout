@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .city,.village{
+            display: flex;
+        }
+        .city>img, .village>img{
+            width: 400px;
+            height: 100%;
+        }
+        .cnt{
+        }
+        @media screen and (max-width:576px) {
+            .city,.village{
+                flex-direction: column;
+            }
+            .village{
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="city">
+        <img src="./image/premium_photo-1669927131902-a64115445f0f.jpeg" alt="">
+        <div class="cnt1">
+            <h2>city life</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet, perferendis expedita eos cumque quasi nobis error laudantium mollitia beatae aut sit fugit suscipit, aliquid iusto nesciunt fugiat. Expedita tempore similique vitae doloremque animi commodi blanditiis reprehenderit, distinctio quam harum error exercitationem sunt explicabo fugiat itaque, ea dolor minus. Necessitatibus repudiandae in modi aliquam rerum dignissimos quasi excepturi tenetur dolore obcaecati voluptas quam harum voluptates, unde iste ab autem deleniti dolorem! Quas accusamus nisi aspernatur quam obcaecati, nemo voluptate culpa voluptatem vitae quos numquam voluptatum, dicta fugit architecto dolorem autem iure soluta perferendis rem quibusdam veniam, adipisci qui. Vel, assumenda.</p>
+            <button>click here</button>
+        </div>
+    </div>
+    <div class="village">
+        <img src="./image/360_F_371146519_OWEake9cQRtOlxmvfk7stLAFaDRUnB62.jpg" alt="">
+        <div class="cnt2"></div>
+            <h2>village life</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet, perferendis expedita eos cumque quasi nobis error laudantium mollitia beatae aut sit fugit suscipit, aliquid iusto nesciunt fugiat. Expedita tempore similique vitae doloremque animi commodi blanditiis reprehenderit, distinctio quam harum error exercitationem sunt explicabo fugiat itaque, ea dolor minus. Necessitatibus repudiandae in modi aliquam rerum dignissimos quasi excepturi tenetur dolore obcaecati voluptas quam harum voluptates, unde iste ab autem deleniti dolorem! Quas accusamus nisi aspernatur quam obcaecati, nemo voluptate culpa voluptatem vitae quos numquam voluptatum, dicta fugit architecto dolorem autem iure soluta perferendis rem quibusdam veniam, adipisci qui. Vel, assumenda.</p>
+            <button>click here</button>
+        </div>
+    </div>
+</body>
+</html>
