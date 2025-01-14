@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        body{
+            max-width: 1140px;
+            /* border: 1px solid black; */
+            margin: 5px auto;
+        }
+         .container{
+            display: flex;
+            border: 2px solid black;
+         }
+        .left{
+            background-color: lightgrey;
+            width: 300px;
+            height: 500px;
+        }
+        .right{
+            background-color: limegreen;
+            height: 500px;
+            width: 100%;
+        }
+        .left>h6{
+            font-size: x-large;
+            text-align: center;
+            
+        }
+        @media  screen and  (max-width:576px){
+            .container{
+                flex-direction: column;
+            }
+            .left{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h6>left</h6>
+        </div>
+        <div class="right">
+            <h6>right</h6>
+        </div>
+    </div>
+</body>
+</html>
